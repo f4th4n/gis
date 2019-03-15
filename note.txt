@@ -20,5 +20,4 @@ Jalan Desa
 
 (jumlah desa * kategori) + (jumlah kecamatan * kategori) + (jumlah kabupaten * kategori)
 
-(230 * 12) + (18 * 12) + (1 * 12)
-
+(230 * 12) + (18 * 12) + (1 * 12) = 2900

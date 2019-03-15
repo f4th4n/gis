@@ -1,0 +1,90 @@
+$mdc-theme-primary: #ff0000;
+$mdc-theme-secondary: #ff0000;
+$mdc-theme-on-primary: #ffffff;
+$mdc-theme-on-secondary: #ffffff;
+
+@import "@material/button/mdc-button";
+@import "@material/fab/mdc-fab";
+@import "@material/textfield/mdc-text-field";
+@import "@material/list/mdc-list";
+@import "@material/chips/mdc-chips";
+
+@import "../lib/fontawesome-free-5.7.2-web/scss/fontawesome.scss";
+@import "../lib/fontawesome-free-5.7.2-web/scss/solid.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#box-black {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+#search-box {
+  box-sizing: border-box;
+  padding: .5rem;
+  display: block;
+  background-color: white;
+  border: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  height: auto;
+  width: 100vw;
+
+  #close-box {
+    text-align: right;
+    font-size: .8rem;
+  }
+
+  #saya-ingin-box {
+    text-align: center;
+    font-size: 110%;
+  }
+
+  .fas {
+    padding-right: 5px;
+  }
+
+  #search-text {
+    input {
+      padding-left: 1vw;
+    }
+  }
+}
+
+
+@media(min-width: 500px) {
+  #search-box {
+    right: 5vh;
+    /*height: 50vh;*/
+    height: auto;
+    width: 30vw;
+    bottom: 5vh;
+
+    #search-text {
+      width: 30vw;
+    }
+  }
+}
+
+/* belum terpakai */
+
+.app-fab--absolute {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+@media(min-width: 1024px) {
+  .app-fab--absolute {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    /*@include mdc-fab-accessible(black);*/
+  }
+}

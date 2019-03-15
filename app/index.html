@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="bundle.css">
-  </head>
-  <body>
-    <button class="foo-button mdc-button">
-      Button
-    </button>
-  </body>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link rel="stylesheet" href="bundle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <!-- <div style="border:2px solid #eee; display:inline-block; overflow:hidden;">
+    <iframe id="map" style="position:relative; top:-46px; border:none;" src="https://www.google.com/maps/d/embed?mid=1zuylonjrglZygI-xVACa2My5G2S643Ci"></iframe>
+  </div> -->
+
+  <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb" width="640" height="480"></iframe> -->
+
+  <iframe
+    id="map"
+    src="https://www.google.com/maps/d/embed?mid=1zuylonjrglZygI-xVACa2My5G2S643Ci"
+    frameBorder="0"
+    width="100%"
+    style="position: absolute;height: 100%; border: none"></iframe>
+
+  <div id="box-black"></div>
+
+  <div id="search-box">
+    <div id="close-box">
+      <a id="close" href="#">Tutup</a>
+    </div>
+    <div id="saya-ingin-box">
+      <p>Saya Ingin Mencari</p>
+    </div>
+
+    <div class="mdc-chip-set">
+      <div class="mdc-chip">
+        <i class="fas fa-school"></i>
+        <div class="mdc-chip__text">Sekolah</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-landmark"></i>
+        <div class="mdc-chip__text">Kantor Pemerintahan</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-futbol"></i>
+        <div class="mdc-chip__text">Lapangan</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-praying-hands"></i>
+        <div class="mdc-chip__text">Makam</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-water"></i>
+        <div class="mdc-chip__text">Bendungan</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-home"></i>
+        <div class="mdc-chip__text">Perumahan</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-place-of-worship"></i>
+        <div class="mdc-chip__text">Tempat Ibadah</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-balance-scale"></i>
+        <div class="mdc-chip__text">Pasar</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-glass-cheers"></i>
+        <div class="mdc-chip__text">Objek Wisata</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-plane-departure"></i>
+        <div class="mdc-chip__text">Bandara</div>
+      </div>
+      <div class="mdc-chip">
+        <i class="fas fa-monument"></i>
+        <div class="mdc-chip__text">Tugu</div>
+      </div>
+    </div>
+
+    <!-- <div id="search-text" class="mdc-text-field mdc-text-field--fullwidth">
+      <input class="mdc-text-field__input"
+             type="text"
+             placeholder="Cari Nama Desa atau Kecamatan"
+             aria-label="Cari Nama Desa atau Kecamatan">
+    </div> -->
+  </div>
+
+  <button class="mdc-fab app-fab--absolute" aria-label="Favorite">
+    <span class="mdc-fab__icon material-icons">search</span>
+  </button>
+  <script type="text/javascript" src="style-bundle.js"></script>
+</body>
 </html>

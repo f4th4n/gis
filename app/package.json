@@ -11,7 +11,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@material/textfield": "^1.0.1"
+    "@material/chips": "^1.0.1",
+    "@material/fab": "^1.0.1",
+    "@material/layout-grid": "^0.41.0",
+    "@material/list": "^1.0.1",
+    "@material/menu": "^1.0.1",
+    "@material/menu-surface": "^1.0.1",
+    "@material/select": "^1.0.1",
+    "@material/textfield": "^1.0.1",
+    "@material/theme": "^1.0.0"
   },
   "devDependencies": {
     "@material/button": "^1.0.1",
@@ -22,6 +30,7 @@
     "node-sass": "^4.11.0",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
+    "url-loader": "^1.1.2",
     "webpack": "^3.12.0",
     "webpack-dev-server": "^2.11.3"
   }
