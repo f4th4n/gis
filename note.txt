@@ -8,7 +8,10 @@ Tempat Ibadah
 Pasar
 Objek Wisata
 Bandara
-Tugu 
+Tugu
+
+
+
 Monumen
 
 todo

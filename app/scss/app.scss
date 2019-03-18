@@ -1,5 +1,5 @@
-$mdc-theme-primary: #ff0000;
-$mdc-theme-secondary: #ff0000;
+$mdc-theme-primary: #e2710d;
+$mdc-theme-secondary: #137fd8;
 $mdc-theme-on-primary: #ffffff;
 $mdc-theme-on-secondary: #ffffff;
 
@@ -19,7 +19,27 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#step-2 {
+  display: none;
+}
+
+#fab-search {
+  display: none;
+}
+
+#show-more-box {
+  text-align: center;
+  color: $mdc-theme-secondary;
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+
+#search-result {
+  cursor: pointer;
+}
+
 #box-black {
+  display: block;
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -27,11 +47,13 @@ body {
 }
 
 #search-box {
+  overflow: scroll;
+  overflow-x: hidden;
+  z-index: 10000;
   box-sizing: border-box;
   padding: .5rem;
   display: block;
   background-color: white;
-  border: 1px solid black;
   position: fixed;
   bottom: 0;
   height: auto;
@@ -52,24 +74,25 @@ body {
   }
 
   #search-text {
-    input {
-      padding-left: 1vw;
-    }
+    width: 100%;
   }
 }
 
+#search-box.tall {
+  height: 100vh;
+  padding-top: 2.5rem;
+}
 
 @media(min-width: 500px) {
   #search-box {
     right: 5vh;
-    /*height: 50vh;*/
-    height: auto;
     width: 30vw;
     bottom: 5vh;
+  }
 
-    #search-text {
-      width: 30vw;
-    }
+  #search-box.tall {
+    height: 65vh;
+    padding-top: .5rem;
   }
 }
 
