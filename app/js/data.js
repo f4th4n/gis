@@ -2951,17 +2951,17 @@ var data = {
     {
       alamat: 'Candinata kec. Kutasari',
       mapByCategories: {
-        sekolah: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        kantor_pemerintahan: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        lapangan: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        makam: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        bendungan: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        perumahan: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        tempat_ibadah: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        pasar: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        objek_wisata: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        bandara: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
-        tugu: 'https://www.google.com/maps/d/embed?mid=1BHmdJ212iNlydBKs_YCKrmtUhpUrcEDb',
+        sekolah: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        kantor_pemerintahan: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        lapangan: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        makam: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        bendungan: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        perumahan: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        tempat_ibadah: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        pasar: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        objek_wisata: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        bandara: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
+        tugu: 'https://www.google.com/maps/d/embed?mid=16FPtD1C2wTrVHILxYwVIwdgwF1UIjlkR',
       }
     },
     {
