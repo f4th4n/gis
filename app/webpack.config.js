@@ -8,7 +8,7 @@ module.exports = [{
   output: {
     // This is necessary for webpack to compile
     // But we never use style-bundle.js
-    filename: 'style-bundle.js',
+    filename: 'dist/style-bundle.js',
   },
   module: {
     rules: [
@@ -18,7 +18,7 @@ module.exports = [{
           {
             loader: 'file-loader',
             options: {
-              name: 'bundle.css',
+              name: 'dist/bundle.css',
             },
           },
           { loader: 'extract-loader' },
